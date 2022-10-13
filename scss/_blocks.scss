@@ -1,0 +1,51 @@
+// BUTTONS
+
+.button {
+	font-weight: 500;
+
+	width: 25.7%;
+	padding: 17px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+	cursor: pointer;
+	border-radius: 25px;
+	&_rectangle {
+		border-radius: 5px;
+	}
+	&:hover {
+		background: #e47209;
+	}
+	&:active {
+		background: #4b9200;
+	}
+	&:disabled {
+		background: #767474;
+	}
+}
+
+.logo {
+	padding: 3.5px 4.75px;
+	text-align: center;
+	border: 1.18841px solid #ffffff;
+	border-radius: 2px;
+	a {
+		position: relative;
+		font-size: 19px;
+		line-height: 1.2;
+		&::before {
+			content: "";
+			position: absolute;
+			left: 4px;
+			bottom: 5px;
+			width: 12px;
+			height: 22px;
+			background: url("../img/icons/bamboo.svg") 0 0 / cover no-repeat;
+		}
+	}
+}
+
+.hide {
+	display: none;
+}
